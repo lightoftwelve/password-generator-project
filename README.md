@@ -9,6 +9,9 @@ This application allows users to generate a random password based on certain cri
 - Random Password Generation: Upon confirming their preferences, the user receives a unique, randomly generated password that meets their criteria.
 - Input Validation: The app validates user inputs to ensure at least one chracter type is selected and the length is within the defined limits.
 
+## Screenshots
+![Password Generator Application Screenshot](./assets/images/password-generator-screenshot.png)
+
 ## Technologies Used
 - HTML
 - CSS
