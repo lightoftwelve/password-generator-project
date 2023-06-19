@@ -21,9 +21,9 @@ This application allows users to generate a random password based on certain cri
 This project's live version can be found [here](https://lightoftwelve.github.io/password-generator-project).
 
 ## Credits
-This project was accepted and completed as part of the UofT SCS Coding Boot Camp Online: Fullstack Flex PT course through the University of Toronto. The original project was created by edX Boot Camps LLC. and has been modified for the purpose of this assignment.
+This project was accepted and completed as part of the UofT SCS Coding Boot Camp Online: Fullstack Flex PT course through the University of Toronto. The original project (HTML, CSS and partially started JavaScript file) was created by edX Boot Camps LLC. and has been modified for the purpose of this assignment.
 
-This project's JavaScript file was written by myself, Victoria Alawi, except where indicated at the bottom of the JavaScript file, marked starting at // Assignment Code
+This project's JavaScript file was written by myself, Victoria Alawi, except where indicated at the bottom of the JavaScript file, marked starting at // Assignment Code.
 - Github: [@lightoftwelve](https://github.com/lightoftwelve)
 - LinkedIn [@Victoria Alawi](https://www.linkedin.com/in/victoria-alawi-872984250/)
 - Website: [www.lightoftwelve.com](http://www.lightoftwelve.com)
