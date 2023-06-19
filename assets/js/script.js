@@ -11,8 +11,8 @@ function generatePassword() {
 
   var passwordLength = prompt("Please enter a password length between 8 - 128 characters:"); // Asks the user to input a password length
 
-  // An alert is returned if the length is not between 8 and 128 characters:
-  if (!(passwordLength >= 8 && passwordLength <= 128)) {
+  // An alert is returned if the input is not a number (isNaN) or (||) the length is not between 8 and 128
+  if (isNaN(passwordLength) || !(passwordLength >= 8 && passwordLength <= 128)) {
     alert("You must choose a password length between 8 and 128 characters🫣");
     return password;
   }
