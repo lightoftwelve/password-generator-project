@@ -24,6 +24,12 @@ function generatePassword() {
   if (confirm("Include numbers?")) selectedChars += numbericChars;
   if (confirm("Include special characters?")) selectedChars += specialChars;
 
+  // Alert for if no character types (selectedChars) are selected
+  if (selectedChars === "") {
+    alert("You must select at least one character type🥺");
+    return password;
+  }
+
   // Generates password randomly
   // The `for` loop runs the number of times equal to passwordLength. During each iteration, one character is randomly selected from selectedChars and added to the password. The loops ends when the desired length of the password is reached and is made up of randomly selected characters.
   for (var i = 0; i < passwordLength; i++) {
