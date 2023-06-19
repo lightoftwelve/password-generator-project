@@ -16,6 +16,20 @@ function generatePassword() {
     alert("You must choose a password length between 8 and 128 characters🫣");
     return password;
   }
+
+  // Ask user for character types and add to selectedChars string
+  // Appends strings to the selectedChars string which results in a combined set of characters
+  if (confirm("Include lowercase characters?")) selectedChars += lowercaseAlphabet;
+  if (confirm("Include uppercase characters?")) selectedChars += uppercaseAlphabet;
+  if (confirm("Include numbers?")) selectedChars += numbericChars;
+  if (confirm("Include special characters?")) selectedChars += specialChars;
+
+  // Generates password randomly
+  // The `for` loop runs the number of times equal to passwordLength. During each iteration, one character is randomly selected from selectedChars and added to the password. The loops ends when the desired length of the password is reached and is made up of randomly selected characters.
+  for (var i = 0; i < passwordLength; i++) {
+    password += selectedChars[Math.floor(Math.random() * selectedChars.length)];
+  }
+  return password;
 }
 
 // Assignment Code
