@@ -18,7 +18,7 @@ This application allows users to generate a random password based on certain cri
 - JavaScript
 
 ## Live Demo
-This project's live version can be found [here](https://lightoftwelve.github.io/secure-keygen/).
+This project's live version can be found [here](https://lightoftwelve.github.io/secure-keygen-password-generator).
 
 ## Credits
 This project was accepted and completed as part of the UofT SCS Coding Boot Camp Online: Fullstack Flex PT course through the University of Toronto. The original project (HTML, CSS and partially started JavaScript file) was created by edX Boot Camps LLC. and has been modified for the purpose of this assignment.
