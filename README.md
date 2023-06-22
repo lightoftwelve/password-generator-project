@@ -1,4 +1,4 @@
-# password-generator-project
+# Secure KeyGen Password Generator
 
 ## Overview
 This application allows users to generate a random password based on certain criteria that they can select. With a clean, responsive UI, users can decide the password length (between 8 and 128 characters) and whether to include lowercase, uppercase, numberic, and special characters in the password. This app increases security by providing users with a unique, hard-to-guess password each time.
